@@ -1,0 +1,28 @@
+a img{
+    width: 80px;
+    margin: 7px;
+}
+h1, h2{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+h2{
+    font-size: 170%;
+}
+.botao{
+    width: 8%;
+    margin: 10% auto;
+}
+.escolha{
+    height: 10%;
+    margin-bottom: 1%;
+}
+footer{
+    position: fixed;
+    top: 90%;
+}
