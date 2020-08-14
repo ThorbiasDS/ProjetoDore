@@ -38,35 +38,51 @@
             <div class="col s12" style="height: 20px;"></div>
         </div>
 
-        <h2>De qual etapa esse problema faz parte?</h2>
 
-        <form action="">
-            <p>
-                <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
-                    <span>Submódulo</span>
-                </label>
-            </p>
-            <p>
-                <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
-                    <span>Específico</span>
-                </label>
-            </p>
-            <p>
-                <label>
-                    <input class="with-gap" name="group3" type="radio" checked />
-                    <span>Item Final</span>
-                </label>
-            </p>
-        </form>
+        <h2>Qual foi o motivo do problema? </h2>
 
-        <!-- Tags JavaScript necessários para o Materialize funcionar -->
-        <script src="./JS/jquery-3.5.1.min.js"></script>
-        <script src="./JS/materialize.min.js"></script>
-        <script>$(document).ready(function () {
-                $('.modal').modal();
-            });</script>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6 offset-s3">
+                        <textarea style="height: 70px;" id="textarea1" class="materialize-textarea"
+                            placeholder="Digite o conteúdo: "></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        
+
+        <div class="setor">
+            <h2 class="escolha">De qual etapa esse problema faz parte?</h2>
+            <form class="etapa">
+                <p>
+                    <label>
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span>Submódulo</span>
+                    </label>
+                    <label class="setor">
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span>Específico</span>
+                    </label>
+                    <label class="setor">
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span>Item final</span>
+                    </label>
+                </p>
+            </form>
+        </div>
+
+        <div class="botao">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Feito
+                <i class="material-icons right">check</i>
+            </button>
+        </div>
+
+        <footer>
+            <blockquote style="border-left: 5px solid teal;">Dore Refrigerantes ©</blockquote>
+        </footer>
 </body>
 
 </html>
