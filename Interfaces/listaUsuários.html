@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Interfaces de Cadastro/CSS/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Interfaces de Cadastro/Imagens/Dore-icone.png" type="image/x-icon">
+    <title>Tela inicial</title>
+    <link rel="stylesheet" href="./CSS/Principal.css">
+</head>
+
+<body>
+
+    <nav class="nav-extended teal z-depth-0">
+        <div class="nav-wrapper teal container">
+            <a href="#" class="brand-logo"><img src="../Interfaces de Cadastro/Imagens/Dore.png" alt=""></a>
+            <a href=""><i class="material-icons right">account_circle</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        <div class="nav-content container">
+            <ul class="tabs tabs-transparent">
+                <li class="tab active"><a href="listaUsuários.html">Usuários</a></li>
+                <li class="tab"><a href="listaModulos.html">Módulos</a></li>
+                <li class="tab"><a href="">Submódulos</a></li>
+                <li class="tab"><a href="">Específicos</a></li>
+                <li class="tab"><a href="">Itens finais</a></li>
+                <li class="tab"><a href="">Problemas</a></li>
+                <li class="tab"><a href="">Soluções</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Home</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Contato</a></li>
+    </ul>
+
+    <div id="usuarios" class="col s12">
+        <ul class="collection with-header container">
+            <li class="collection-header">
+                <a href=""><i class="material-icons right medium">add</i></a>
+                <h4>Usuários</h4>
+            </li>
+            <li class="collection-item">Tobias Daniel
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Gabriela Florencio
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Beatriz Martins
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Eliano Santos
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Pablo Araújo
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Fernanda Mendes
+                <a href=""><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../Interfaces de Cadastro/JS/jquery-3.5.1.min.js"></script>
+    <script src="../Interfaces de Cadastro/JS/materialize.min.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });</script>
+
+
+</body>
+
+</html>
