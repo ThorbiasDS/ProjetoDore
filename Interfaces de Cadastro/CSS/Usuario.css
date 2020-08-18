@@ -51,3 +51,6 @@ input{
     width: 8%;
     margin: auto;
 }
+blockquote{
+    border-left: 5px solid teal;
+}

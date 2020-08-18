@@ -26,3 +26,6 @@ footer{
     position: fixed;
     top: 90%;
 }
+blockquote{
+    border-left: 5px solid teal;
+}
