@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens/Dore-icone.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./CSS/EditarUsuario.css">
+    <title>Cadastrar usuários</title>
+</head>
+
+<body>
+    <header>
+        <nav class="teal z-depth-0">
+            <div class="navbar-fixed ">
+                <div class="nav-wrapper teal container">
+                    <a href="#" class="brand-logo"><img src="./Dore.png" alt=""></a>
+                    <a href=""><i class="material-icons right">account_circle</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Editar Usuário</h1>
+    <div class="row">
+        <form>
+            <div class="input-field">
+                <input type="text" id="nome">
+            </div>
+            <div class="input-field">
+                <input type="email" id="email">
+            </div>
+            <label>Mudar senha: </label>
+            <div class="input-field">
+                <input type="password" id="senha" placeholder="Digite a nova senha">
+            </div>
+            <label>Confirmar senha: </label>
+            <div class="input-field">
+                <input type="password" id="senha" placeholder="Digite a nova senha">
+            </div>
+        </form>
+    </div>
+
+
+    <div class="tipo">
+        <label>Setor: </label>
+        <form class="setores">
+            <p>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio"/>
+                    <span>Diretoria</span>
+                </label>
+            </p>
+            <p>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio"/>
+                    <span>Financeiro</span>
+                </label>
+            </p>
+            <p>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Logística</span>
+                </label>
+            </p>
+            <p>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Produção</span>
+                </label>
+            </p>
+            <p>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Pessoal</span>
+                </label>
+            </p>
+        </form>
+    </div>
+
+    <div class="permissao">
+        <label class="modificacao">Permissão para modificação: </label>
+        <form class="booleanos">
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio"/>
+                    <span>Sim</span>
+                </label>
+                <label class="setor">
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Não</span>
+                </label>
+            </p>
+        </form>
+    </div>
+    <div class="editar">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Salvar
+    </button>
+</div>
+<footer>
+    <blockquote style="border-left: 5px solid teal;">Dore Refrigerantes ©</blockquote>
+</footer>
+
+    
+
+</body>
+</html>
