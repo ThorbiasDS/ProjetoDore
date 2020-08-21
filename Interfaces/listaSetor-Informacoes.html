@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../Interfaces de Cadastro/Imagens/Dore-icone.png" type="image/x-icon">
-    <title>Lista de módulos</title>
+    <title>Lista de setores e informações</title>
     <link rel="stylesheet" href="./CSS/Listas.css">
 </head>
 
@@ -29,13 +29,13 @@
             <div class="nav-content col s12">
                 <ul class="tabs tabs-transparent col s11 offset-s1">
                     <li class="tab"><a href="listaUsuários.html">Usuários</a></li>
-                    <li class="tab active"><a href="listaModulos.html">Módulos</a></li>
+                    <li class="tab"><a href="listaModulos.html">Módulos</a></li>
                     <li class="tab"><a href="listaSubmodulos.html">Submódulos</a></li>
                     <li class="tab"><a href="listaEspecificos.html">Específicos</a></li>
                     <li class="tab"><a href="listaItensFinais.html">Itens finais</a></li>
                     <li class="tab"><a href="listaProblemas.html">Problemas</a></li>
                     <li class="tab"><a href="listaSolucoes.html">Soluções</a></li>
-                    <li class="tab"><a href="listaSetor-Informacoes.html">Setores e Informações</a></li>
+                    <li class="tab active"><a href="listaSetor-Informacoes.html">Setores e Informações</a></li>
                 </ul>
             </div>
         </div>
@@ -50,32 +50,51 @@
     <div id="modulos" class="col s12">
         <ul class="collection with-header container">
             <li class="collection-header">
-                <a href="../Interfaces de Cadastro/Modulo.html"><i class="material-icons right medium">add</i></a>
-                <h4>Módulos</h4>
+                <a href="../Interfaces de Cadastro/Problema.html"><i class="material-icons right medium">add</i></a>
+                <h4>Setores</h4>
             </li>
-            <li class="collection-item">Software
+            <li class="collection-item">Financeiro
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
-                <a href="../Interfaces de Edição/Editar_Modulo.html"><i
+                <a href="../Interfaces de Edição/Editar_SetorInformacoes.html"><i
                         class="material-icons right small">create</i></a>
             </li>
-            <li class="collection-item">Hardware
+            <li class="collection-item">Produção
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
                 <a href=""><i class="material-icons right small">create</i></a>
             </li>
-            <li class="collection-item">Segurança
+            <li class="collection-item">TI
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
                 <a href=""><i class="material-icons right small">create</i></a>
             </li>
-            <li class="collection-item">ERP
-                <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
-                <a href=""><i class="material-icons right small">create</i></a>
-            </li>
-            <li class="collection-item">Redes
+            <li class="collection-item">Tesouraria
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
                 <a href=""><i class="material-icons right small">create</i></a>
             </li>
         </ul>
     </div>
+
+    <div id="modulos" class="col s12 quadro-informacoes">
+        <ul class="collection with-header container">
+            <li class="collection-header">
+                <a href="../Interfaces de Cadastro/Problema.html"><i class="material-icons right medium">add</i></a>
+                <h4>Informações</h4>
+            </li>
+            <li class="collection-item">Atualização do SAIB
+                <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
+                <a href="../Interfaces de Edição/Editar_SetorInformacoes.html"><i
+                        class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Atualização do Fortes
+                <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+            <li class="collection-item">Manutenção da impressora
+                <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
+                <a href=""><i class="material-icons right small">create</i></a>
+            </li>
+        </ul>
+    </div>
+
     <div id="modal" class="modal">
         <div class="modal-content">
             <div class="container center">
@@ -99,7 +118,6 @@
     <script>$(document).ready(function () {
             $('.modal').modal();
         });</script>
-
 </body>
 
 </html>

@@ -16,24 +16,28 @@
 
     <nav class="nav-extended teal z-depth-0">
         <div class="nav-wrapper teal container">
-            <a href="./Principal.html" class="brand-logo"><img src="../Interfaces de Cadastro/Imagens/Dore.png" alt=""></a>
-            <a href=""><i class="material-icons right">account_circle</i></a>
+            <a href="./Principal.html" class="brand-logo"><img src="../Interfaces de Cadastro/Imagens/Dore.png"
+                    alt=""></a>
+            <a href=""><i class="material-icons right">exit_to_app</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="Principal.html">Home</a></li>
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
         </div>
-        <div class="nav-content container">
-            <ul class="tabs tabs-transparent">
-                <li class="tab active"><a href="listaUsuários.html">Usuários</a></li>
-                <li class="tab"><a href="listaModulos.html">Módulos</a></li>
-                <li class="tab"><a href="listaSubmodulos.html">Submódulos</a></li>
-                <li class="tab"><a href="listaEspecificos.html">Específicos</a></li>
-                <li class="tab"><a href="listaItensFinais.html">Itens finais</a></li>
-                <li class="tab"><a href="listaProblemas.html">Problemas</a></li>
-                <li class="tab"><a href="listaSolucoes.html">Soluções</a></li>
-            </ul>
+        <div class="row">
+            <div class="nav-content col s12">
+                <ul class="tabs tabs-transparent col s11 offset-s1">
+                    <li class="tab active"><a href="listaUsuários.html">Usuários</a></li>
+                    <li class="tab"><a href="listaModulos.html">Módulos</a></li>
+                    <li class="tab"><a href="listaSubmodulos.html">Submódulos</a></li>
+                    <li class="tab"><a href="listaEspecificos.html">Específicos</a></li>
+                    <li class="tab"><a href="listaItensFinais.html">Itens finais</a></li>
+                    <li class="tab"><a href="listaProblemas.html">Problemas</a></li>
+                    <li class="tab"><a href="listaSolucoes.html">Soluções</a></li>
+                    <li class="tab"><a href="listaSetor-Informacoes.html">Setores e Informações</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -51,7 +55,8 @@
             </li>
             <li class="collection-item">Tobias Daniel
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
-                <a href=""><i class="material-icons right small">create</i></a>
+                <a href="../Interfaces de Edição/Editar_Usuario.html"><i
+                        class="material-icons right small">create</i></a>
             </li>
             <li class="collection-item">Gabriela Florencio
                 <a class="modal-trigger" href="#modal"><i class="material-icons right small">delete</i></a>
@@ -102,10 +107,10 @@
         $(document).ready(function () {
             $('.modal').modal();
         });
-        $(document).ready(function(){
-    $('.tooltipped').tooltip();
-  });
-        </script>
+        $(document).ready(function () {
+            $('.tooltipped').tooltip();
+        });
+    </script>
 
 
 </body>
