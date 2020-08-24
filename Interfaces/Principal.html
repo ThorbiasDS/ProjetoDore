@@ -18,7 +18,7 @@
             <div class="navbar-fixed">
                 <div class="nav-wrapper teal container">
                     <a href="./Principal.html" class="brand-logo"><img src="../Interfaces de Cadastro/Imagens/Dore.png" alt=""></a>
-                    <a href=""><i class="material-icons right">exit_to_app</i></a>
+                    <a class="modal-trigger" href="#modal"><i class="material-icons right">exit_to_app</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="Principal.html">Home</a></li>
                         <li><a href="">Sobre</a></li>
@@ -28,6 +28,20 @@
             </div>
         </nav>
     </header>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="container center">
+                <p style="font-family: 'Roboto', sans-serif; font-size: 200%;">Tem certeza que deseja sair?</p>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Sim
+                    <i class="material-icons right">check</i>
+                </button>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Não
+                    <i class="material-icons right">cancel</i>
+                </button>
+            </div>
+        </div>
+    </div>
 
 
     <div class="titulo">
@@ -80,7 +94,7 @@
             <p class="opcoes">Cadastrar e Editar</p>
 
         </div>
-        <div class="opcao"><a href="" class="link">
+        <div class="opcao"><a href="./sugestoes.html" class="link">
                 <i class="material-icons large funcao">question_answer</i></a>
             <p class="opcoes">Sugestões</p>
 
@@ -125,6 +139,9 @@
 
     <script src="../Interfaces de Cadastro/JS/jquery-3.5.1.min.js"></script>
     <script src="../Interfaces de Cadastro/JS/materialize.min.js"></script>
+    <script>$(document).ready(function () {
+        $('.modal').modal();
+    });</script>
 </body>
 
 
