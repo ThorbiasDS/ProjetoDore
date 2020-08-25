@@ -17,13 +17,16 @@
     <nav class="nav-extended teal z-depth-0">
         <div class="nav-wrapper teal container">
             <a href="./Principal.html" class="brand-logo"><img src="../Interfaces de Cadastro/Imagens/Dore.png" alt=""></a>
-            <a href=""><i class="material-icons right">exit_to_app</i></a>
+            <a class="modal-trigger" href="#sair"><i class="material-icons right">exit_to_app</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="Principal.html">Home</a></li>
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
         </div>
+
+        
+
         <div class="row">
             <div class="nav-content col s12">
                 <ul class="tabs tabs-transparent col s11 offset-s1">
@@ -39,6 +42,20 @@
         </div>
         </div>
     </nav>
+
+    <div id="sair" class="modal">
+        <div class="modal-content">
+            <div class="container center">
+                <p style="color: black;">Tem certeza que deseja sair?</p>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Sim
+                    <i class="material-icons right">check</i>
+                </button>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Não
+                    <i class="material-icons right">cancel</i>
+                </button>
+            </div>
+        </div>
+    </div>
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="Principal.html">Home</a></li>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../Interfaces de Cadastro/CSS/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="Imagens/Dore-icone.png" type="image/x-icon">
@@ -19,40 +19,38 @@
             <nav class="teal z-depth-2">
                 <div class="navbar-fixed ">
                     <div class="nav-wrapper teal container">
-                        <a class="brand-logo"><img src="./Imagens/Dore.png" alt=""></a>
+                        <a class="brand-logo"><img src="./Imagens/Dore.png" alt="Logotipo da Dore"></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li style="font-size: 150%;">Bem vindo à Dore!</li>
+                            <li>Bem vindo à Dore!</li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <div class="fundo">
-
+        <div class="formulario">
+            <fieldset class="z-depth-4">
+                <div class="row container">
+                    <form class="col s12">
+                        <div class="input-field offset-s1 col s10">
+                            <input type="text" id="usuario">
+                            <label for="usuario"> Usuário </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="row container">
+                    <form class="col s12">
+                        <div class="input-field offset-s1 col s10">
+                            <input type="password" id="senha">
+                            <label for="senha">Senha</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="container center">
+                    <a href="Principal.html" class="btn waves-effect waves-light btn-small">Entrar</a>
+                </div>
+            </fieldset>
         </div>
-        <fieldset class="z-depth-4">
-            <div class="row container">
-                <form class="col s12 credenciais">
-                    <div class="input-field offset-s2 col s8">
-                        <input type="text" id="usuario">
-                        <label for="usuario"> Usuário </label>
-                    </div>
-                </form>
-            </div>
-            <div class="row container">
-                <form class="col s12">
-                    <div class="input-field col s6 offset-s2 col s8">
-                        <input type="text" id="senha">
-                        <label for="senha"> Sua senha </label>
-                    </div>
-                </form>
-            </div>
-            <div class="container center">
-                <a href="Principal.html" class="btn waves-effect waves-light btn-small">Entrar</a>
-                <a href="" class="btn waves-effect waves-light btn-small">Esqueci minha senha</a>
-            </div>
-        </fieldset>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
