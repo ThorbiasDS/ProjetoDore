@@ -9,7 +9,6 @@ body{
 .logo{
     width: 56px;
     height: 10px;
-    /* background: url("") center center/56px; */
 }
 a img{
     width: 80px;
@@ -21,6 +20,10 @@ a i{
 a i:hover{
     opacity: 1;
 }
+li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+}
 .titulo{
     width: 80%;
     margin-right: auto;
@@ -29,16 +32,26 @@ a i:hover{
     display: flex;
     justify-content: center;
 }
-fieldset{
-    background-color:white;
+.formulario{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    width: 50%;
-    margin: 20vh 50vh;
+    align-items: center;
+}
+fieldset{
+    background-color:white;
+    width: 45%;
+    margin: 10% auto;
     border: none;
 }
 .row{
     display: flex;
     justify-content: center;
+}
+@media(max-width: 1040px){
+    fieldset{
+        width: 470px;
+    }
 }
 
