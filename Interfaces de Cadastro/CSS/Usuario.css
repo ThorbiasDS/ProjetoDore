@@ -63,4 +63,5 @@ input{
 }
 blockquote{
     border-left: 5px solid teal;
+    font-family: 'Roboto', sans-serif;
 }
