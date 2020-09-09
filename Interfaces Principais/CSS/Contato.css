@@ -17,25 +17,25 @@ h1, h2{
     font-family: 'Roboto', sans-serif;
     font-size: 200%;
 }
+.row{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+}
 .confirmar{
     font-family:'Roboto', sans-serif;
     font-size: 200%;
 }
-a{
+.a{
     color: inherit;
-}
-li{
-    display: flex;
-    align-content: center;
-
-}
-.fixarRodape {
-    bottom: 0;
-    position: fixed;
-    width: 90%;
-    text-align: left;
 }
 blockquote{
     border-left: 5px solid teal;
-    font-family: 'Roboto', sans-serif;
+}
+footer{
+    position: fixed;
+    top: 90%;
+}
+i{
+
 }
